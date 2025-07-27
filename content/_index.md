@@ -1,5 +1,5 @@
-+++
-title = ''
-date = 2025-07-27T07:48:27-05:00
-draft = true
-+++
+---
+  type: docs
+---
+
+I work on tons of tech projects and buy lots of cool tech toys, but keeping everyone up to date on how cool I am is tiring work. This site serves to automate the conversation bits.
