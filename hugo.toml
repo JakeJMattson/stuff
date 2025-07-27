@@ -1,5 +1,5 @@
-baseURL = 'https://jakejmattson.github.io/stuff/'
-languageCode = 'en-us'
+baseURL = ""
+languageCode = "en-us"
 title = "Jake's Stuff"
 relativeURLs = true
 canonifyURLs = true
@@ -10,4 +10,4 @@ canonifyURLs = true
 
 [caches]
   [caches.images]
-    dir = ':cacheDir/images'
+    dir = ":cacheDir/images"
