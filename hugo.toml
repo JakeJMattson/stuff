@@ -1,6 +1,8 @@
 baseURL = 'https://jakejmattson.github.io/stuff/'
 languageCode = 'en-us'
 title = "Jake's Stuff"
+relativeURLs = true
+canonifyURLs = true
 
 [module]
   [[module.imports]]
