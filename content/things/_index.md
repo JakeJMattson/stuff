@@ -8,4 +8,5 @@ This is a collection of cool techy things, mostly the infrastructure bits for al
 {{< cards >}} 
 {{< card link="PC" title="PC" icon="desktop-computer" >}} 
 {{< card link="Server" title="Server" icon="server" >}}
+{{< card link="Network" title="Network" icon="wifi" >}}
 {{< /cards >}}
