@@ -6,6 +6,6 @@ cascade:
 This section outlines new ideas for projects, broken up into a few categories
 
 {{< cards >}} 
-{{< card link="Hardware" title="Hardware" icon="server" >}} 
-{{< card link="Software" title="Software" icon="code" >}}
+{{< card link="hardware" title="Hardware" icon="server" >}} 
+{{< card link="software" title="Software" icon="code" >}}
 {{< /cards >}}
