@@ -1,3 +1,8 @@
++++
+title = "Server"
+weight = 2
++++
+
 # Dell PowerEdge R730xd
 
 My server is the heart of my home and where most of my projects are running.

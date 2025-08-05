@@ -1,6 +1,8 @@
-## Project
++++
+title = "Discord Bots"
++++
 
-I needed a way to host my personal discord bot projects on my [Server]({{< relref "things/Server" >}}). Unraid runs apps via docker out of the box, so this was the simplest deployment strategy. Since the bots are only personal, I didn't want to push the code anywhere either.
+I needed a way to host my personal discord bot projects on my [Server]({{< relref "docs/things/Server" >}}). Unraid runs apps via docker out of the box, so this was the simplest deployment strategy. Since the bots are only personal, I didn't want to push the code anywhere either.
 ## Execution
 
 Knowing I wanted to use Docker for deployment, [Docker Hub](https://hub.docker.com/) came up as an immediate thought. With the idea of keeping the entire process local, I didn't want to push the image somewhere. I found that instead you can host your own [private registry](https://hub.docker.com/_/registry). This registry communicates over HTTP, which many services don't support by default due to security. This was solved by adding `"insecure-registries": ["192.168.1.123:9362"]` to my Docker Engine config. This is the internal static IP of my server and the port the registry is running on.
