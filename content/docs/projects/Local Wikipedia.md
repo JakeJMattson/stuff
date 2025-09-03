@@ -11,7 +11,7 @@ Wikipedia themselves has a page for [database downloads](https://en.wikipedia.or
 Kiwix uses the [ZIM](https://en.wikipedia.org/wiki/ZIM_(file_format)) file format and hosts all of them for download on their [download page](https://download.kiwix.org/zim/wikipedia/). If you click any of these zims it will attempt to download over HTTP. Since these downloads may be massive, they recommend using a torrent instead. This saves their bandwidth verifies that your file is not corrupted during the download process.
 
 Finding these torrents gave me a bit of trouble, but you can use the same download page to access them. If you right click on any zim entry, you can copy the link address which should give you the path to the zim. If you add `.torrent` to the end of it, it will download the torrent instead of the file directly. Since I wanted all English articles with pictures, this is my download link: <br>
-https://download.kiwix.org/zim/wikipedia/wikipedia_en_all_maxi_2024-01.zim.torrent
+https://download.kiwix.org/zim/wikipedia/wikipedia_en_all_maxi_2025-08.zim.torrent
 
 ## Usage
 
