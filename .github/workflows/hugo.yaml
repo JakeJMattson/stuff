@@ -23,8 +23,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      DART_SASS_VERSION: 1.89.2
-      HUGO_VERSION: 0.148.0
+      DART_SASS_VERSION: 1.97.3
+      HUGO_VERSION: 0.156.0
       HUGO_ENVIRONMENT: production
       TZ: America/New_York
 
@@ -50,7 +50,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.21'
+          go-version: '1.26'
 
       - name: Setup Pages
         id: pages
