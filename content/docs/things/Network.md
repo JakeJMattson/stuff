@@ -8,11 +8,11 @@ weight = 3
 This tool supports diagrams, how neat is that?
 ```mermaid
 graph TD;
-GF[1G internet<br><a href='https://fiber.google.com/'>Google Fiber</a>]-->UDMP
+GF[3 Gigabit Internet<br><a href='https://fiber.google.com/'>Google Fiber</a>]-->UDMP
 
-UDMP[<a href='https://store.ui.com/us/en/products/udm-pro'>Unifi Dream Machine Pro</a>]-->A[Rack Switch<br><a href='https://www.nicgiga.com/collections/10g-switch/products/8-port-10g-ethernet-switch'>8x10G SFP</a>]
+UDMP[Rack Router<br><a href='https://store.ui.com/us/en/products/udm-pro'>Unifi Dream Machine Pro</a>]-->A[Rack Switch<br><a href='https://www.nicgiga.com/collections/10g-switch/products/8-port-10g-ethernet-switch'>8x10G SFP</a>]
 
-A-->Z[<a href='../Server'>Server</a>]
+A-->Z[Home Server<br><a href='../Server'>Dell PowerEdge R730xd</a>]
 
 A-->B[Livingroom Switch <a href='https://www.amazon.com/dp/B09LNLMH9Y'><br>2x10G 4x2.5G RJ45</a>]
 
