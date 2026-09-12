@@ -14,6 +14,6 @@ RAM: 256 GB DDR4
  OS: Unraid
 
 Storage:
-  3x 4TB SATA SSD
+  4x 4TB SATA SSD
   1x 4TB NVMe SSD
 ```

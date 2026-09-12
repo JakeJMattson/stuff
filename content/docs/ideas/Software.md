@@ -3,9 +3,6 @@ title = "Software"
 +++
 
 These are project ideas that are mostly just standing up services on my [Server]({{< relref "docs/things/Server" >}})
-### Dynamic DNS
-
-My domain registrar offers dynamic DNS functionality. If my public IP changes, this service would update the IP target on my subdomains. Currently I am using [DuckDNS](https://www.duckdns.org/) for this, but it would be nice to have one less third party service.
 
 ### Personal Cloud
 
